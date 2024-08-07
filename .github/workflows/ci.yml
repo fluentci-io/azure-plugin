@@ -29,5 +29,5 @@ jobs:
           GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Show azure cli version
         run: |
-          type azure
-          azure --version
+          type az
+          az --version
